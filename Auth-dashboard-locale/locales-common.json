@@ -180,12 +180,13 @@
       "dutch": "Wachtwoord moet overeenkomen",
       "english": "Password must match",
       "french": "Le mot de passe doit correspondre",
-      "german": "Passwort muss übereinstimmen",
-      "japanese": "パスワードが一致している必要があります",
-      "korean": "암호가 일치해야합니다",
+      "german": "Das Passwort muss übereinstimmen",
+      "japanese": "パスワードは一致する必要があります",
+      "korean": "비밀번호가 일치해야 합니다.",
       "mandarin": "密码必须匹配",
-      "portuguese": "A senha deve ser igual",
-      "spanish": "Contraseña debe coincidir con"
+      "portuguese": "A senha deve corresponder",
+      "spanish": "La contraseña debe coincidir",
+      "turkish": "Şifre eşleşmelidir"
     },
     "errors-required": {
       "dutch": "Verplicht",
@@ -221,26 +222,28 @@
       "spanish": "Factor 1: inicio de sesión social"
     },
     "factor2-devices": {
-      "dutch": "Factor 2: Apparaat (en)",
-      "english": "Factor 2: Device (s)",
-      "french": "Facteur 2: Dispositif (s)",
-      "german": "Faktor 2: Gerät(e)",
-      "japanese": "要因 2: デバイス",
-      "korean": "요소 2: 장치(들)",
-      "mandarin": "因素 2：设备",
-      "portuguese": "Fator 2: Dispositivo(s)",
-      "spanish": "Factor 2: Dispositivo(s)"
+      "dutch": "Apparaat(en)",
+      "english": "Device(s)",
+      "french": "Appareil(s)",
+      "german": "Geräte)",
+      "japanese": "デバイス",
+      "korean": "장치",
+      "mandarin": "设备",
+      "portuguese": "Dispositivos)",
+      "spanish": "Dispositivos)",
+      "turkish": "Cihaz(lar)"
     },
     "factor3-social-recovery": {
-      "dutch": "Factor 3: Sociaal herstel",
-      "english": "Factor 3: Social Recovery",
-      "french": "Facteur 3: Récupération sociale",
-      "german": "Faktor 3: Soziale Erholung",
-      "japanese": "要因 3: 社会的回復",
-      "korean": "요인 3: 사회적 회복",
-      "mandarin": "因素 3：社会恢复",
-      "portuguese": "Fator 3: Recuperação Social",
-      "spanish": "Factor 3: Recuperación Social"
+      "dutch": "Sociaal herstel",
+      "english": "Social Recovery",
+      "french": "Récupération sociale",
+      "german": "Sozialer Aufschwung",
+      "japanese": "社会的回復",
+      "korean": "사회 회복",
+      "mandarin": "社会康复",
+      "portuguese": "Recuperação Social",
+      "spanish": "Recuperación Social",
+      "turkish": "Sosyal Kurtarma"
     },
     "last-accessed-on": {
       "dutch": "Laatst bezocht op:",
@@ -302,10 +305,11 @@
       "french": "Mot de passe",
       "german": "Passwort",
       "japanese": "パスワード",
-      "korean": "암호",
+      "korean": "비밀번호",
       "mandarin": "密码",
       "portuguese": "Senha",
-      "spanish": "Password"
+      "spanish": "Contraseña",
+      "turkish": "Şifre"
     },
     "password-label": {
       "dutch": "Voer wachtwoord in",
@@ -417,6 +421,30 @@
       "portuguese": "Social",
       "spanish": "Social"
     },
+    "toast-authenticator-share-delete-fail": {
+      "dutch": "Kan de Authenticator-app niet ontkoppelen",
+      "english": "Failed to unlink the Authenticator App",
+      "french": "Échec de la dissociation de l'application Authenticator",
+      "german": "Die Verknüpfung der Authenticator-App konnte nicht aufgehoben werden",
+      "japanese": "Authenticator アプリのリンクを解除できませんでした",
+      "korean": "OTP 앱 연결을 해제하지 못했습니다.",
+      "mandarin": "验证器应用解绑失败",
+      "portuguese": "Falha ao desvincular o aplicativo Authenticator",
+      "spanish": "No se pudo desvincular la aplicación de autenticación",
+      "turkish": "Authenticator Uygulamasının bağlantısı kaldırılamadı"
+    },
+    "toast-authenticator-share-delete-success": {
+      "dutch": "Authenticator-app is succesvol ontkoppeld",
+      "english": "Authenticator App unlinked successfully",
+      "french": "Application d'authentification dissociée avec succès",
+      "german": "Die Verknüpfung mit der Authenticator-App wurde erfolgreich aufgehoben",
+      "japanese": "認証アプリのリンクが正常に解除されました",
+      "korean": "OTP 앱이 연결 해제되었습니다.",
+      "mandarin": "验证器App解除关联成功",
+      "portuguese": "Aplicativo autenticador desvinculado com sucesso",
+      "spanish": "La aplicación de autenticación se desvinculó correctamente",
+      "turkish": "Authenticator Uygulamasının bağlantısı başarıyla kaldırıldı"
+    },
     "toast-backup-phase-email-send-success": {
       "dutch": "Back-upzin verzonden naar uw e-mail",
       "english": "Backup Phrase sent to your email",
@@ -494,6 +522,30 @@
       "portuguese": "Compartilhamento de dispositivo excluído com sucesso",
       "spanish": "Dispositivo compartido eliminado correctamente"
     },
+    "toast-passkey-share-delete-fail": {
+      "dutch": "Kan de toegangssleutel niet ontkoppelen",
+      "english": "Failed to unlink the Passkey",
+      "french": "Échec de la dissociation du mot de passe",
+      "german": "Die Verknüpfung des Passkeys konnte nicht aufgehoben werden",
+      "japanese": "パスキーのリンクを解除できませんでした",
+      "korean": "패스키 연결을 해제하지 못했습니다.",
+      "mandarin": "无法取消链接密钥",
+      "portuguese": "Falha ao desvincular a chave de acesso",
+      "spanish": "No se pudo desvincular la clave de acceso",
+      "turkish": "Geçiş Anahtarının bağlantısı kaldırılamadı"
+    },
+    "toast-passkey-share-delete-success": {
+      "dutch": "Wachtwoord is succesvol ontkoppeld",
+      "english": "Passkey unlinked successfully",
+      "french": "Clé d'accès dissociée avec succès",
+      "german": "Die Verknüpfung mit dem Passkey wurde erfolgreich aufgehoben",
+      "japanese": "パスキーのリンクが正常に解除されました",
+      "korean": "패스키가 연결 해제되었습니다.",
+      "mandarin": "密钥已成功取消链接",
+      "portuguese": "Chave de acesso desvinculada com sucesso",
+      "spanish": "Clave de acceso desvinculada exitosamente",
+      "turkish": "Şifre anahtarının bağlantısı başarıyla kaldırıldı"
+    },
     "toast-password-change-fail": {
       "dutch": "Wachtwoordwijziging mislukt",
       "english": "Password change unsuccessful",
@@ -515,6 +567,30 @@
       "mandarin": "密码修改成功",
       "portuguese": "Senha alterada com sucesso",
       "spanish": "Contraseña cambiada correctamente"
+    },
+    "toast-password-share-delete-fail": {
+      "dutch": "Verwijderen van wachtwoord delen is mislukt",
+      "english": "Password share deletion unsuccessful",
+      "french": "Échec de la suppression du partage de mot de passe",
+      "german": "Das Löschen der Passwortfreigabe ist fehlgeschlagen",
+      "japanese": "パスワード共有の削除に失敗しました",
+      "korean": "비밀번호 공유 삭제 실패",
+      "mandarin": "密码共享删除失败",
+      "portuguese": "Falha na exclusão do compartilhamento de senha",
+      "spanish": "La eliminación del recurso compartido de contraseña no se realizó correctamente",
+      "turkish": "Şifre paylaşımının silinmesi başarısız oldu"
+    },
+    "toast-password-share-delete-success": {
+      "dutch": "Wachtwoord delen succesvol verwijderd",
+      "english": "Password share successfully deleted",
+      "french": "Le partage de mot de passe a été supprimé avec succès",
+      "german": "Passwortfreigabe erfolgreich gelöscht",
+      "japanese": "パスワード共有が正常に削除されました",
+      "korean": "비밀번호 공유가 삭제되었습니다.",
+      "mandarin": "密码共享已成功删除",
+      "portuguese": "Compartilhamento de senha excluído com sucesso",
+      "spanish": "El recurso compartido de contraseña se eliminó correctamente",
+      "turkish": "Şifre paylaşımı başarıyla silindi"
     },
     "toast-password-verification-fail": {
       "dutch": "Wachtwoordverificatie mislukt",
@@ -581,6 +657,30 @@
       "mandarin": "股份转让失败",
       "portuguese": "Falha na transferência de compartilhamento",
       "spanish": "Error al transferir el recurso compartido"
+    },
+    "toast-social-share-delete-fail": {
+      "dutch": "Het verwijderen van het Social Recovery-aandeel is mislukt",
+      "english": "Social Recovery share deletion unsuccessful",
+      "french": "Échec de la suppression du partage de récupération sociale",
+      "german": "Das Löschen der Social Recovery-Freigabe ist fehlgeschlagen",
+      "japanese": "Social Recovery 共有の削除に失敗しました",
+      "korean": "사회 회복 공유 삭제 실패",
+      "mandarin": "Social Recovery 共享删除失败",
+      "portuguese": "Falha na exclusão do compartilhamento de Recuperação Social",
+      "spanish": "La eliminación del recurso compartido de Social Recovery no se realizó correctamente",
+      "turkish": "Social Recovery paylaşımının silinmesi başarısız oldu"
+    },
+    "toast-social-share-delete-success": {
+      "dutch": "Social Recovery-aandeel succesvol verwijderd",
+      "english": "Social Recovery share successfully deleted",
+      "french": "Partage de récupération sociale supprimé avec succès",
+      "german": "Social Recovery-Freigabe erfolgreich gelöscht",
+      "japanese": "Social Recovery 共有が正常に削除されました",
+      "korean": "사회 회복 공유가 삭제되었습니다.",
+      "mandarin": "社交恢复共享已成功删除",
+      "portuguese": "Compartilhamento de recuperação social excluído com sucesso",
+      "spanish": "El recurso compartido de Social Recovery se eliminó correctamente",
+      "turkish": "Sosyal Kurtarma paylaşımı başarıyla silindi"
     },
     "toast-something-went-wrong": {
       "dutch": "Er is iets misgegaan",
